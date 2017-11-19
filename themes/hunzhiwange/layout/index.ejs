@@ -1,0 +1,73 @@
+<div class="sidebar">
+  <div class="sidebar-inner-index">
+    <ul class="main-menu">
+      <%- partial('partials/main_menu', { context: 'sidebar' }) %>
+    </ul>
+  </div>
+</div>
+
+<div id="hero">
+  <div class="inner">
+    <div class="left">
+      <img class="hero-logo" src="<%- url_for("/images/logo.png") %>">
+    </div><div class="right">
+      <h2 class="hunzhiwange">HunZhiWanGe</h2>
+      <h1>
+        魂之挽歌 . Work Remote As Free As Wind
+      </h>
+      <p>
+        <a class="button" href="<%- url_for("/work/") %>">提交项目需求</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+<div id="highlights">
+  <div class="inner">
+    <div class="point">
+      <h2><img src="/images/query.png" height="50"  /></h2>
+      <p>Query the endless software world</p>
+      <p>is complex enough</p>
+      <p>探寻无尽的软件世界已足够复杂</p>
+    </div>
+
+    <div class="point">
+      <h2><img src="/images/yet.png" height="50" /></h2>
+      <p>But yet</p>
+      <p>This is not what we want</p>
+      <p>这不是我们想要的</p>
+    </div>
+
+    <div class="point">
+      <h2><img src="/images/simple.png" height="50" /></h2>
+      <p>We just want to write code</p>
+      <p>simply and happily</p>
+      <p>我们只想简单快乐地撸一撸代码</p>
+    </div>
+  </div>
+</div>
+
+<div id="sponsors">
+  <div class="inner">
+    <h3>友情链接</h3>
+    <%- partial('partials/sponsors') %>
+  </div>
+</div>
+
+<div id="footer">
+  <p>&copy; 2009-<%- new Date().getFullYear() %> 魂之挽歌工作室</p>
+</div>
+
+
+<script>
+var topScrolled = false
+window.addEventListener('scroll', function () {
+  if (window.pageYOffset > 165 && !topScrolled) {
+    topScrolled = true
+    document.getElementById('mobile-bar').classList.remove('top')
+  } else if (window.pageYOffset <= 165 && topScrolled) {
+    topScrolled = false
+    document.getElementById('mobile-bar').classList.add('top')
+  }
+})
+</script>

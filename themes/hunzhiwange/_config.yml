@@ -1,0 +1,9 @@
+site_description: "HunZhiWanGe - Work Remote As Free As Wind"
+root_domain: hunzhiwange.com
+vue_version: 4.0.0
+tags: /tags
+
+# html languages
+language:
+- zh-CN
+- en
