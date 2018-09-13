@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>HunZhiWange</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://hunzhiwange.com/"/>
+  <updated>2018-09-13T13:21:34.696Z</updated>
+  <id>http://hunzhiwange.com/</id>
+  
+  <author>
+    <name>Xiangmin Liu</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>QueryPHP V4.0 is comming !</title>
+    <link href="http://hunzhiwange.com/2017/08/05/think/new-will-coming/"/>
+    <id>http://hunzhiwange.com/2017/08/05/think/new-will-coming/</id>
+    <published>2017-08-05T01:15:06.000Z</published>
+    <updated>2018-09-13T13:21:34.696Z</updated>
+    
+    <content type="html"><![CDATA[<p>3Q ! 测试更新文章</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;3Q ! 测试更新文章&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
